@@ -1,0 +1,191 @@
+body{
+    color:#663700;
+    font-family:Corbel,Helvetica, Arial,sans-serif;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    border:0;
+
+}
+img{
+border:0;
+}
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+ 
+.clearfix {
+	display: inline-block;
+}
+ 
+html[xmlns] .clearfix {
+	display: block;
+}
+ 
+* html .clearfix {
+	height: 1%;
+}
+p{
+    margin:0;
+}
+#tab-container{
+    border:1px solid #ddd;
+    width:518px;
+    *width:518px;
+    margin:0; padding:0; border:0;
+    -moz-box-shadow:inset 0px 0px 20px 3px #EFEEEB;
+    -webkit-box-shadow:inset 0px 0px 20px 3px #EFEEEB;
+    box-shadow: inset 0px 0px 20px 3px #EFEEEB;
+}
+#canvas-container{
+    border:1px solid #ddd;
+    width:760px;
+    -moz-box-shadow:inset 0px 0px 20px 3px #EFEEEB;
+    -webkit-box-shadow:inset 0px 0px 20px 3px #EFEEEB;
+    box-shadow: inset 0px 0px 20px 3px #EFEEEB;
+}
+#header{
+    background: url(../../../assets/images/phase2/sprite.png) no-repeat;
+    height:433px;
+    width:520px;
+}
+#header p {
+    margin:0;
+    padding:130px 0  0 22px;
+    width:421px;
+    margin-bottom:10px;
+}
+ #canvas-header p{
+    margin:0;
+    padding:110px 0  0 22px;
+    width:421px;
+    margin-bottom:10px;
+}
+#canvas-header{
+    background: url(../../../assets/images/phase2/header.jpg) no-repeat;
+    height:287px;
+    width:760px;
+}
+.content-box{
+    border:1px solid #E4E4E3;
+    background-color:#F3F1F1;
+    margin:15px 25px 20px 25px;
+    padding:20px;
+}
+#video p{
+    margin-bottom:10px;
+}
+#video h2{
+    padding:0;
+    margin:0;
+    background: url(../../../assets/images/phase2/sprite.png)  0 -465px;
+    height:35px;
+    width:185px;
+}
+#insta-icon{
+    background: url(../../../assets/images/phase2/sprite.png)  -190px -480px;
+    height:20px;
+    width:20px;
+    float:left;
+}
+a.btn{
+    color:#000;
+}
+.btn{
+    padding-top:5px;
+    float:left;
+    height:22px;
+    width:215px;
+    font-family: Helvetica, Arial, Sans-Serif;
+    font-weight:bold;
+    font-size:13px;
+    color:#fff;
+    text-align:center;
+    margin-left:21px;
+}
+.btn-orange{
+   background-color: #EB8C05; 
+   background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#EB8C05), to(#CD6E0C));
+   background-image: -webkit-linear-gradient(top, #EB8C05, #CD6E0C); 
+   background-image: -moz-linear-gradient(top, #EB8C05, #CD6E0C);
+   background-image: -ms-linear-gradient(top, #EB8C05, #CD6E0C);
+   background-image: -o-linear-gradient(top, #EB8C05, #CD6E0C);
+}
+.btn-orange:hover{
+   background-color: #EB8C05; 
+   background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#CD6E0C), to(#EB8C05));
+   background-image: -webkit-linear-gradient(top, #CD6E0C, #EB8C05); 
+   background-image: -moz-linear-gradient(top, #CD6E0C, #EB8C05);
+   background-image: -ms-linear-gradient(top, #CD6E0C, #EB8C05);
+   background-image: -o-linear-gradient(top, #CD6E0C, #EB8C05);
+   cursor:pointer;
+}
+#instagramList{
+    padding:0;
+}
+#instagramList li{
+    float:left;
+    list-style-type:none;
+    background-color:White;
+    padding:5px 3px 0 5px;
+    margin:5px 10px 5px 10px;
+    -moz-box-shadow: 6px 6px 10px -1px #aaa;
+    -webkit-box-shadow: 6px 6px 10px -1px #aaa;
+    box-shadow: 6px 6px 10px -1px #aaa;
+}
+span{
+    color:#ec8c25;
+}
+/* create an arrow that points left */
+div.prev-arrow-icon {
+    width:0px; 
+    height:0px; 
+    border-bottom:10px solid transparent;  /* left arrow slant */
+    border-top:10px solid transparent; /* right arrow slant */
+    border-right:10px solid #ec8c25; /* bottom, add background color here */
+    font-size:0px;
+    line-height:0px;
+    position:absolute;
+    top: 40px;
+    left: -13px;
+    cursor:pointer;
+}
+
+/* create an arrow that points right */
+div.next-arrow-icon {
+    width:0px; 
+    height:0px; 
+    border-bottom:10px solid transparent;  /* left arrow slant */
+    border-top:10px solid transparent; /* right arrow slant */
+    border-left:10px solid #ec8c25; /* bottom, add background color here */
+    font-size:0px;
+    line-height:0px;
+    position:absolute;
+    top: 40px;
+    right: -13px;
+    cursor:pointer;
+}
+#instagram-widget{
+    position:relative;
+}
+#instagram p{
+    margin:0 0 0 5px;
+    float:left;
+}
+#lower-section{
+display:none;
+}
+#flash-container{
+    margin-top:5px;
+    outline:none;
+}
+#psl-phase2{
+margin-top:5px;
+margin-bottom:-5px;
+outline:none;
+}
