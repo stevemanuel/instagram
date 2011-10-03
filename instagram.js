@@ -62,8 +62,8 @@ var instagramControl = (function () {
         };
         values = {
             key: '{INSERT_KEY_HERE}',
-            url: "https://api.instagram.com/v1/tags/{YOUR_KEYWORD}/media/recent?client_id={INSERT_KEY_HERE}&count="+count,
-            defaultSearch: "{YOUR_KEYWORD}",
+            url: "https://api.instagram.com/v1/tags/hard2011/media/recent?client_id={INSERT_KEY_HERE}&count="+count,
+            defaultSearch: "hard2011",
             errorString: "<li>No results were found</li>",
             prevUrls: [],
             currentPage: 0
